@@ -1,9 +1,0 @@
-.contest-container {
-    margin-top: 140px;
-}
-
-.contest-cards-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
