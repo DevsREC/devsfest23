@@ -1,0 +1,45 @@
+.gallery-container {
+    margin-top: 140px;
+}
+
+.gallery-cards-container {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #E6E6E6;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.gallery-image-container {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px 30px 10px;
+}
+
+.gallery-image {
+    display: block;
+    width: 245px;
+    height: 275px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    filter: sepia(100%);
+    object-fit: cover;
+    border: 1px solid var(--color-black);
+}
+
+.gallery-image-container:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.gallery-image:hover {
+    cursor: pointer;
+    width: 275px;
+    filter: sepia(0%);
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<meta charset="UTF-8">
+
+
+<head>
+    <meta name="description" content="DEVS FEST 2023.">
+    <meta name="author" content="Rithesh S">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>DEVSFEST'23</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="./devs-logo-light.png" sizes="32x32">
+
+    <meta property="og:site_name" content="Devsfest23">
+    <meta property="og:title" content="Devsfest23" />
+    <meta property="og:description" content="DEVSFEST'23 is the flagship event of devs club of rec" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./style_2.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="./baffle.min.js"></script>
+    <link rel="stylesheet" href="./event-page.css" />
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW100YW4T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-BJW100YW4T');
+    </script>
+
+
+</head>
+
+
+<body>
+
+    <header>
+
+
+        <div class="sid">
+            <a data-aos="fade-left" data-aos-duration="500" data-aos-delay="2500" data-aos-once="true"> <input
+                    id="theme-switcher" class="theme-switcher" autocomplete="off" value="" readonly></a>
+            <a id="pur" data-aos="fade-left" data-aos-duration="500" data-aos-delay="2550" data-aos-once="true"> <input
+                    id="cu" class="theme-switcher ts1" autocomplete="off"></a>
+        </div>
+
+        <a data-aos="fade-in" data-aos-duration="600" data-aos-delay="2700" data-aos-once="true"><input id="dow"
+                class="theme-switcher ts2" autocomplete="off"></a>
+
+
+
+        <!--  data-aos="fade-in-up" data-aos-easing="ease-in-sine" data-aos-duration="2400" data-aos-once="true" -->
+        <div class="header-container" id="header-container">
+            <div id="navbar">
+                <div class="navbar">
+                    <div class="burger burger-slip" id="burger_menu" onclick="burger()">
+                        <div class="burger-lines"></div>
+
+                        <script>
+                            window.addEventListener("mouseup", function (event) {
+
+                                var box = document.querySelector(".nav-item");
+                                var box1 = document.querySelector("#invi");
+
+                                if (event.target == box || event.target.parentNode == box) {
+
+                                    burger()
+                                }
+                                if (event.target == box1 || event.target.parentNode == box1) {
+
+                                    burger()
+                                }
+                            });
+
+                            function burger() {
+
+                                var myElement = document.querySelector("#burger_menu");
+
+                                var myCover = document.querySelector("#cover");
+                                var myinvi = document.querySelector("#invi");
+
+                                if (myElement.classList.contains("open")) {
+                                    myElement.classList.remove("open");
+                                    myCover.classList.remove("cover-open");
+                                    myinvi.classList.remove("invi-open");
+
+                                    $('.sid').css({
+                                        display: "none"
+                                    });
+                                    document.getElementById("blurbg").style.display = "none";
+
+                                } else {
+                                    myElement.classList.add("open");
+                                    myCover.classList.add("cover-open");
+                                    myinvi.classList.add("invi-open"); //
+
+                                    $('.sid').css({
+                                        display: "block"
+                                    });
+                                    document.getElementById("blurbg").style.display = "block";
+
+                                }
+                            }
+                        </script>
+
+
+                    </div>
+
+
+
+                    <a class="logo" href="index.html">
+                        <img src="devs-logo-light.png" />
+                        <svg style="display:none" id="loid" class="yom hamburger toggler" viewBox="0 0 160 127"
+                            fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_29_6)">
+                                <path d="M151.5 0.5H2.5L8.5 11.5H145.5L151.5 0.5Z" fill="black" />
+                                <path d="M72.5 21.5H14.5L21.5 32.5H58.5V94.5L72.5 116.533V21.5Z" fill="black" />
+                                <path d="M139.5 21.5H81.5V116.533L96.5 93.2691V32.5H132.5L139.5 21.5Z" fill="black" />
+                                <path d="M151.5 0.5H2.5L8.5 11.5H145.5L151.5 0.5Z" stroke="black" />
+                                <path d="M72.5 21.5H14.5L21.5 32.5H58.5V94.5L72.5 116.533V21.5Z" stroke="black" />
+                                <path d="M139.5 21.5H81.5V116.533L96.5 93.2691V32.5H132.5L139.5 21.5Z" stroke="black" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_29_6" x="0.5" y="0.5" width="159" height="126.032"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dx="3" dy="5" />
+                                    <feGaussianBlur stdDeviation="2.5" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_29_6" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_29_6"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+
+                    </a>
+                    <a class="cenl" id="logo_id"> </a>
+                    </a>
+
+                    <!-- <ul class="nav-menu">
+                        <div class="invi" id="invi" data-aos="fade-left" data-aos-duration="500" data-aos-delay="2400">
+                            <li class="nav-item">
+                                <a href="technical.html" style="color:white;" class="nav-link">Next Event &#8594;</a>
+                                <div class="nbox"></div>
+                            </li>
+                        </div>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="event_container">
+        <div class="event_info">
+
+            <h2>PC BUILDING COMPETITION
+            </h2>
+
+            <p>The PC Building Competition will take place in two rounds.
+
+
+            </p>
+
+            <div class="event_rounds">
+                <div class="rounds">
+                    <h3><span>ROUND 1</span></h3>
+
+                    <p>
+                        A quiz on PC building fundamentals will be conducted. Based on the score, the top participants
+                        will be selected for the second round.
+
+                    </p>
+                    <div class="venues">
+                        <p class="venue">Venue: conference hall
+                        </p>
+                    </div>
+                </div>
+                <div class="rounds">
+                    <h3><span>ROUND 2</span></h3>
+                    <p>Components for PC building will be given. Participants must build a full PC that boots up in the
+                        least possible time.
+                    </p>
+                    <div class="venues">
+                        <p class="venue">Venue: conference hall
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="event_coordinators">
+
+
+                <h3>Coordinators' Names and Contacts:
+                </h3>
+                <br />
+                <div>
+                    <ul>
+                        <li>Naveen Kumar: <a href="tel:6374394669">6374394669</a></li>
+                        <li>Sanjay Hasan: <a href="tel:9688431652">9688431652</a> </li>
+                        <li>Harshavardhan: <a href="tel:9840281625">9840281625</a> </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            once: false,
+        });
+    </script>
+
+
+
+</body>
+
+
+
+
+
+</html>
