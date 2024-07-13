@@ -1,0 +1,49 @@
+.batch-button {
+    display: block;
+    margin: 40px auto 10px auto;
+    width: max-content;
+    text-decoration: none;
+
+    background-color: var(--color-black);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    transition: .3s ease;
+    box-shadow: 0px 0px 10px rgba(108, 48, 232, .7);
+    border: 2px solid var(--color-black);
+}
+
+.batch-button .text {
+    position: relative;
+    z-index: 10;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.batch-button .box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 0%;
+    border-radius: 1px;
+    background-color: var(--color-violet);
+    transform-origin: center center;
+    transition: all .3s ease;
+}
+
+.batch-button:hover .box{
+    transform: translate(-50%, -50%) rotate(180deg);
+    height: 200px;
+}
+
+.batch-button:hover {
+    background-color: var(--color-orange);
+    box-shadow: 0px 0px 15px var(--color-orange);
+    border-color: var(--color-orange);
+}

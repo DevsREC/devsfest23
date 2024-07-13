@@ -1,0 +1,141 @@
+.p2p-page-container {
+    margin-top: 70px;
+}
+
+.p2p-page-container .section-head img {
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+}
+
+.p2p-moto-container {
+    background-color: var(--color-black);
+    width: 90%;
+    border-radius: 5px;
+    padding: 15px;
+    color: #fff;
+    margin: 10px auto 10px auto;
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.5em;
+    transition: .3s ease;
+    text-align: center;
+}
+
+.p2p-moto-container h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    height: 60px;
+}
+
+.p2p-moto-container span {
+    line-height: 1.4rem;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.p2p-moto-points {
+    display: block;
+    background-color: #5395ff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.p2p-moto-points::before {
+    content: '';
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    background-color: #ffffff22;
+    top: 0;
+    animation: moveShine 10s ease 0s infinite ;
+    transform: skewX(-20deg);
+}
+
+@keyframes moveShine {
+    0% {
+        left: -100%;
+    } 100% {
+        left: 1000%;
+    }
+}
+
+/* .p2p-moto-container:hover {
+    transition: .2s ease-out;
+    cursor: pointer;
+} */
+
+.p2p-page-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+/* Join Button */
+
+.p2p-join-container {
+    margin: 10px auto;
+    display: grid;
+    place-items: center;
+}
+
+.p2p-join-btn {
+    background: #9bc1ff;
+    box-shadow: 4px 4px #b621fe, 9px 9px #151515;
+    color: #151515;
+    text-transform: lowercase;
+    border: solid 2px #151515;
+    text-decoration: none;
+    padding: 18px 32px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    cursor: pointer;
+    overflow: hidden;
+    transition-delay: 0s !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px;
+    /* font-family: sans-serif; */
+  }
+
+  .p2p-join-btn::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #151515;
+    z-index: -1;
+    transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  .p2p-join-btn:hover::before {
+    width: 100%;
+    left: 0;
+    right: unset;
+  }
+
+  .p2p-join-btn:hover {
+    box-shadow: 0 0 #5395ff, 0 0 #151515;
+    color: white;
+  }
+
+  /* Video Container   */
+.p2p-video-explainer-container video {
+    display: block;
+    min-width: 300px;
+    width: 50%;
+    margin: -40px auto 10px auto;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px #b621fe);
+}
