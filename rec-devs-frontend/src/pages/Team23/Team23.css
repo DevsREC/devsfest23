@@ -112,6 +112,7 @@ ul {
     justify-content: center;
     gap: 10px;
     border-radius: 10px;
+    overflow-x: scroll;
 }
 
 .team-page-gallery .down .sm-img {
