@@ -61,8 +61,12 @@ const Team23 = () => {
                             <li><span>Venkatesh</span><span>Vice-President</span></li>
                             <li><span>Jeyanth</span><span>Secretary</span></li>
                             <li><span>Rithesh</span><span>Project Lead</span></li>
+                            <li><span>Sanjay</span><span>Project Lead</span></li>
+                            <li><span>Steve</span><span>Treasurer</span></li>
+                            <li><span>Sudheer</span><span>Media Lead</span></li>
+                            <li><span>Shyam</span><span>Media Lead</span></li>
                             <li><span>Rishabh</span><span>Content Lead</span></li>
-                            <li><span>Nandine</span><span>Event Lead</span></li>
+                            <li><span>Nandine</span><span>Event Head</span></li>
                             <li><span>Varsha</span><span>Event Lead</span></li>
                             <li><span>Nevethitha</span><span>Club Coordinator</span></li>
                             <li><span>Karthi</span><span>Club Coordinator</span></li>
@@ -89,6 +93,11 @@ const Team23 = () => {
                             <li>Brahadeesh</li>
                             <li>Niraimathi</li>
                             <li>Kamalesh</li>
+                            <li>Akalya</li>
+                            <li>Jeci</li>
+                            <li>Mercy</li>
+                            <li>Dhuvaraka</li>
+                            <li>Naren</li>
                         </ul>
                     </div>
                 </div>
