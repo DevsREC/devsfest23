@@ -2,6 +2,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import './App.css';
+import 'atropos/css'
 
 import NavbarTop from './components/navbarTop/NavbarTop';
 import HomePage from './pages/HomePage/HomePage';

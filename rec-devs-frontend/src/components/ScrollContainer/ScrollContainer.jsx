@@ -7,8 +7,8 @@ const ScrollContainer = ({ children }) => {
     return(
         <ReactLenis root options={
             {
-                lerp: 1.5,
-                duration: 3.5,
+                lerp: 1,
+                duration: .5,
                 smoothTouch: true,
                 syncTouch: true
             }
