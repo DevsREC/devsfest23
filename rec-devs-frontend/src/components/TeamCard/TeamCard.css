@@ -32,12 +32,14 @@
 
 
 .team-img {
-    width: 100%;
+    width: 150px;
+    height: 150px;
     border: 2px solid var(--color-black);
     border-radius: 50%;
     display: block;
     user-select: none;
     transition: .3s ease;
+    object-fit: cover;
 }
 
 

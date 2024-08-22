@@ -108,14 +108,18 @@ const CONTESTS = [
 ]
 
 const EVENTS = [
-    // {
-    //     eventImage: '/assets/tech-xplore.webp',
-    //     eventLink: '#'
-    // },
-    // {
-    //     eventImage: '/assets/webinar-1.webp',
-    //     eventLink: '#'
-    // },
+    {
+        eventImage: '/assets/unfazed.webp',
+        eventLink: '#'
+    },
+    {
+        eventImage: '/assets/gen ai.heic',
+        eventLink: '#'
+    },
+    {
+        eventImage: '/assets/geekify.heic',
+        eventLink: '#'
+    },
 ]
 
 /*
