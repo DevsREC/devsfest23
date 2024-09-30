@@ -139,3 +139,10 @@
     border-radius: 10px;
     filter: drop-shadow(4px 4px #b621fe);
 }
+
+.p2p-wait {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

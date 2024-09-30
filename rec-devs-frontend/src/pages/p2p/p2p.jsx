@@ -11,7 +11,7 @@ export default function PeerToPeer() {
             </div>
 
             <div className="p2p-video-explainer-container">
-                <video src="assets/P2P Explainer.mp4" autoPlay loop controls controlsList="nodownload"></video>
+                <video src="assets/p2pfinal.mp4" autoPlay loop controls controlsList="nodownload"></video>
             </div>
 
             <div className="p2p-moto-container">
@@ -19,7 +19,7 @@ export default function PeerToPeer() {
                 <span>
                 Welcome to DEVS REC's fresh initiative - Peer-to-Peer Learning Hub!
                 <br />
-                Join us in this journey to build a supportive learning community. 
+                Join us in this journey to build a supportive learning community.
                 <br />
                 Whether you're a novice diving into a new tech stack or an expert seeking to collaborate with REC's top tech minds, our hub has got you covered with the best mentors for every tech domain to aid you on your journey!
                 <br />
@@ -48,12 +48,18 @@ export default function PeerToPeer() {
             </div>
 
             <div className="p2p-join-container">
-                <a href="https://t.me/p2phub_devsrec" target="_" className="p2p-join-btn">
+                <a href="#" target="_" className="p2p-join-btn">
                     Join Now!
                 </a>
             </div>
+            <center>
+                <h2>Mentors</h2>
 
-            <div className="p2p-page-card-container">
+            </center>
+            <div className="p2p-wait">
+                <h1>Cooking...</h1>
+            </div>
+            {/* <div className="p2p-page-card-container">
                 <P2PCard
                     domainName={'WebDev'}
                     domainMentors={[
@@ -260,7 +266,7 @@ export default function PeerToPeer() {
                     ]}
                     isCoordinator={true}
                 />
-            </div>
+            </div> */}
 
         </div>
     )
