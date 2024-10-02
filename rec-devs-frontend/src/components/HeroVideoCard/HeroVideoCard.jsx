@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import './HeroVideoCard.css';
 
 import video1 from '/assets/Devs_Website_Intro.webm'
-import video2 from '/assets/vr.webm'
-import video3 from '/assets/game.webm'
+// import video2 from '/assets/vr.webm'
+// import video3 from '/assets/game.webm'
 
 export default function HeroVideoCard() {
     const [isHeroHovered, setIsHovered] = useState(false);

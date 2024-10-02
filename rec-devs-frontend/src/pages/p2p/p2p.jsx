@@ -10,8 +10,22 @@ export default function PeerToPeer() {
                 <img src="/assets/p2p_head.webp" alt="Peer-to-peer" />
             </div>
 
+                {/* <video src="assets/p2pfinal.mp4" autoPlay loop controls controlsList="nodownload"></video> */}
+            {/* <div className="p2p-video-explainer-container">
+                <video autoPlay loop controls controlsList="nodownload">
+                    <source src="https://youtu.be/ergd3B2yaWQ?si=6o9nayHf9NU0GR_W" type="" />
+                </video>
+                <iframe src="https://youtu.be/ergd3B2yaWQ?si=6o9nayHf9NU0GR_W" frameborder="0"></iframe>
+            </div> */}
+
             <div className="p2p-video-explainer-container">
-                <video src="assets/p2pfinal.mp4" autoPlay loop controls controlsList="nodownload"></video>
+                <iframe
+                    src="https://www.youtube.com/embed/ergd3B2yaWQ?autoplay=1&loop=1&controls=1&modestbranding=1"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen>
+                </iframe>
             </div>
 
             <div className="p2p-moto-container">
@@ -54,12 +68,9 @@ export default function PeerToPeer() {
             </div>
             <center>
                 <h2>Mentors</h2>
-
+                <button class="btn-down" type="button">Stack Sorted.</button>
             </center>
-            <div className="p2p-wait">
-                <h1>Cooking...</h1>
-            </div>
-            {/* <div className="p2p-page-card-container">
+            <div className="p2p-page-card-container">
                 <P2PCard
                     domainName={'WebDev'}
                     domainMentors={[
@@ -201,6 +212,7 @@ export default function PeerToPeer() {
                     ]}
                     whatsAppLink={'#'}
                 />
+
                 <P2PCard
                     domainName={'CTF'}
                     domainMentors={[
@@ -266,7 +278,7 @@ export default function PeerToPeer() {
                     ]}
                     isCoordinator={true}
                 />
-            </div> */}
+            </div>
 
         </div>
     )

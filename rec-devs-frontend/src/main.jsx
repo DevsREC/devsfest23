@@ -8,9 +8,9 @@ import ScrollContainer from './components/ScrollContainer/ScrollContainer.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <HashRouter>
     <React.StrictMode>
-      <ScrollContainer>
+      {/* <ScrollContainer> */}
         <App />
-      </ScrollContainer>
+      {/* </ScrollContainer> */}
     </React.StrictMode>
   </HashRouter>,
 )
