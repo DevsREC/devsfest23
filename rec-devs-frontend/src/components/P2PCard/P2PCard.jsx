@@ -8,6 +8,12 @@ export default function P2PCard({domainName, domainMentors, whatsAppLink, linked
     })
 
     return(
+        <div style={
+            {
+                display: 'flex',
+                flexDirection: 'column'
+            }
+        }>
         <div className="p2p-card-outer-container">
             <div className="square"></div>
             <div className="p2p-card-container">
@@ -50,14 +56,16 @@ export default function P2PCard({domainName, domainMentors, whatsAppLink, linked
                     }
                 </div>
 
+            </div>
+        </div>
                 {!isCoordinator && <div className="domain-whatsapp-link-container">
-                    <a href={whatsAppLink} target="_" className="domain-whatspp-link">
+                    {/* <a href={whatsAppLink} target="_" className="domain-whatspp-link">
                         <span>
                             Join Whatsapp
                         </span>
-                    </a>
+                    </a> */}
+                    <a class="btn-down" type="button" href={whatsAppLink} target="_">Roadmap</a>
                 </div>}
-            </div>
         </div>
     )
 }
