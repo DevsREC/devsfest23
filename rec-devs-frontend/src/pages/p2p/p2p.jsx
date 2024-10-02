@@ -56,22 +56,26 @@ export default function PeerToPeer() {
                 <h2>Mentors</h2>
 
             </center>
-            <div className="p2p-wait">
-                <h1>Cooking...</h1>
-            </div>
-            {/* <div className="p2p-page-card-container">
+            
+          
+            <div className="p2p-page-card-container">
                 <P2PCard
                     domainName={'WebDev'}
                     domainMentors={[
                         {
-                            name: 'Mohammed Noumaan Ahamed',
-                            img: 'assets/Mohammed Noumaan Ahamed.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/noumaanahamed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+                            name: 'Livesh ',
+                            img: 'assets/liv.jpg',
+                            linkedinLink: 'https://linkedin.com/in/livesh-m-85a057251/'
                         },
                         {
-                            name: 'Dhanush',
-                            img: 'assets/Dhanush.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/dhanush-s-17bab722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+                            name: 'Hursun',
+                            img: 'assets/Hursun.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/hursun-ss-377659233/'
+                        },
+                        {
+                            name: 'Dhanush TS',
+                            img: 'assets/DhanushTs.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/dhanush-t-s-734481271/'
                         },
                         {
                             name: 'A.K.S. Thirumurugan',
@@ -79,21 +83,31 @@ export default function PeerToPeer() {
                             linkedinLink: 'https://www.linkedin.com/in/a-k-s-thirumurugan-57b230211/'
                         },
                         {
-                            name: 'Braghadeesh R A',
-                            img: 'assets/Braghadeesh R A.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/braghadeesh05'
+                            name: 'Abraham',
+                            img: 'assets/Abraham Samuel E.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/abraham-samuel-e/'
                         },
                         {
                             name: 'Vignesh C',
                             img: 'assets/vignesh.webp',
                             linkedinLink: 'https://www.linkedin.com/in/vignesh-chellapandi-2207b5257/'
-                        }
+                        },
+                        {
+                            name: 'NithyaShree',
+                            img: 'assets/nithya1.webp.jpg',
+                            linkedinLink: 'https://www.linkedin.com/in/nithya-shree-a17a57269/'
+                        } 
                     ]}
                     whatsAppLink={'#'}
                     />
                 <P2PCard
                     domainName={'UI/UX'}
                     domainMentors={[
+                        {
+                            name: 'Abraham',
+                            img: 'assets/Abraham Samuel E.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/abraham-samuel-e/'
+                        },
                         {
                             name: 'Sudheer',
                             img: 'assets/Sudheer.webp',
@@ -110,10 +124,25 @@ export default function PeerToPeer() {
                             linkedinLink: 'https://www.linkedin.com/in/purushothaman-m-b4ba9122b/'
                         },
                         {
-                            name: 'Sailesh',
-                            img: 'assets/Sailesh.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/sailesh-ravichandran-637739229/'
+                            name: 'Niraimathi A K',
+                            img: 'assets/Niraimathi A K.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/niraimathi-a-k-905064241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                         },
+                        {
+                            name: 'Shyam Prasath R',
+                            img: 'assets/Shyam Prasath R.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/shyamprasath-r'
+                        },
+                        {
+                            name: 'Rishi',
+                            img: 'assets/',
+                            linkedinLink: ''
+                        },
+                        {
+                            name: 'Manovikram',
+                            img: 'assets/vice24.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/manovikramk/'
+                        }  
                     ]}
                     whatsAppLink={'#'}
                 />
@@ -121,24 +150,29 @@ export default function PeerToPeer() {
                     domainName={'App Development'}
                     domainMentors={[
                         {
+                            name: 'Hursun',
+                            img: 'assets/Hursun.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/hursun-ss-377659233/'
+                        },
+                        {
                             name: 'Soniya',
                             img: 'assets/Soniya.webp',
                             linkedinLink: 'https://www.linkedin.com/in/soniyavijay?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                         },
                         {
-                            name: 'Guru Prasath T',
-                            img: 'assets/Guru Prasath T.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/guru-prasath-t-38bb72248/'
+                            name: 'Rakhul',
+                            img: 'assets/Rakhul.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/rakhul/'
                         },
                         {
-                            name: 'Shivashankar',
-                            img: 'assets/Shiva.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/sivashankar-s-33117b249/'
+                            name: 'SivaKumar',
+                            img: 'assets/',
+                            linkedinLink: ''
                         },
                         {
-                            name: 'Kavin',
-                            img: 'assets/Kavin.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/kavin-raj-192a43288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+                            name: 'A.K.S. Thirumurugan',
+                            img: 'assets/thiru_full.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/a-k-s-thirumurugan-57b230211/'
                         }
                     ]}
                     whatsAppLink={'#'}
@@ -146,6 +180,11 @@ export default function PeerToPeer() {
                 <P2PCard
                     domainName={'Game Development'}
                     domainMentors={[
+                        {
+                            name: 'Vignesh C',
+                            img: 'assets/vignesh.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/vignesh-chellapandi-2207b5257/'
+                        },
                         {
                             name: 'Venkatesh C',
                             img: 'assets/vice.jpg',
@@ -156,6 +195,11 @@ export default function PeerToPeer() {
                             img: 'assets/Naveen.webp',
                             linkedinLink: 'https://www.linkedin.com/in/naveen-k-129877255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                         },
+                        {
+                            name: 'Aswin A ',
+                            img: 'assets/liv.jpg',
+                            linkedinLink: 'https://www.linkedin.com/in/aswin-a-735930257/'
+                        }
                     ]}
                     whatsAppLink={'#'}
                 />
@@ -163,20 +207,21 @@ export default function PeerToPeer() {
                     domainName={'Comp. Programming'}
                     domainMentors={[
                         {
-                            name: 'Sai Harish',
-                            img: 'assets/Sai Harish.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/saiharish-m-b567b9235/'
+                            name: 'Manovikram',
+                            img: 'assets/vice24.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/manovikramk/'
+                        } ,
+                        {
+                            name: 'Dhiksha Shrivruthi',
+                            img: 'assets/Dhiksha Shrivruthi.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/dhiksha-shrivruthi-g-93897b258/'
                         },
                         {
-                            name: 'Dhruv R Jain',
-                            img: 'assets/Dhruv R Jain.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/dhruvrjain/'
+                            name: 'Livesh ',
+                            img: 'assets/liv.jpg',
+                            linkedinLink: 'https://linkedin.com/in/livesh-m-85a057251/'
                         },
-                        {
-                            name: "Brahadeesh V",
-                            img: 'assets/Brahadeesh V.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/brahadeesh-v-8998ab257/'
-                        }
+                        
                     ]}
                     whatsAppLink={'#'}
                 />
@@ -184,9 +229,9 @@ export default function PeerToPeer() {
                     domainName={'ML'}
                     domainMentors={[
                         {
-                            name: 'Shugavaneshwar R',
-                            img: 'assets/vice2.jpg',
-                            linkedinLink: 'https://www.linkedin.com/in/shuga-vaneshwar-922603226'
+                            name: 'Dhiksha Shrivruthi',
+                            img: 'assets/Dhiksha Shrivruthi.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/dhiksha-shrivruthi-g-93897b258/'
                         },
                         {
                             name: 'Hursun',
@@ -194,10 +239,28 @@ export default function PeerToPeer() {
                             linkedinLink: 'https://www.linkedin.com/in/hursun-ss-377659233/'
                         },
                         {
-                            name: 'Dhiksha Shrivruthi',
-                            img: 'assets/Dhiksha Shrivruthi.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/dhiksha-shrivruthi-g-93897b258/'
+                            name: 'Ashwin JD',
+                            img: 'assets/jd.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/aswin-jd-349860257/'
                         }
+                        ,
+                        {
+                            name: 'Dheekshith',
+                            img: 'assets/dheek.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/dheekshith-t-5168a0257/'
+                        },
+                        {
+                            name: 'NithyaShree',
+                            img: 'assets/nithya.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/nithya-shree-a17a57269/'
+                        },
+                        {
+                            name: 'Manovikram',
+                            img: 'assets/vice24.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/manovikramk/'
+                        }  
+
+                        
                     ]}
                     whatsAppLink={'#'}
                 />
@@ -230,24 +293,89 @@ export default function PeerToPeer() {
                             img: 'assets/Kavibalan. P.webp',
                             linkedinLink: 'https://www.linkedin.com/in/kavibalan-p-166934257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                         },
-                        {
-                            name: 'Niraimathi A K',
-                            img: 'assets/Niraimathi A K.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/niraimathi-a-k-905064241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
-                        },
+                       
                         {
                             name: 'Harshavardhan K K',
                             img: 'assets/Harshavardhan K K.webp',
                             linkedinLink: 'https://www.linkedin.com/in/harshavardhan-k-k-7b7ba2236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                         },
-                        {
-                            name: 'Shyam Prasath R',
-                            img: 'assets/Shyam Prasath R.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/shyamprasath-r'
-                        },
+                        
                     ]}
                 />
+                  <P2PCard
+                    domainName={'IOT'}
+                    domainMentors={[
+                        {
+                            name: 'A.K.S. Thirumurugan',
+                            img: 'assets/thiru_full.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/a-k-s-thirumurugan-57b230211/'
+                        },
+                        {
+                            name: 'Balaji',
+                            img: 'assets/',
+                            linkedinLink: ''
+                        },
+                       
+                        {
+                            name: 'Arunachalam',
+                            img: 'assets/',
+                            linkedinLink: ''
+                        },
+                        
+                        {
+                            name: 'Suhaib',
+                            img: 'assets/msv.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/mohammed-suhaib-vajeer/ '
+                        },
+                        {
+                            name: 'Hursun',
+                            img: 'assets/Hursun.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/hursun-ss-377659233/'
+                        },
+                        
+                    ]}
+                />
+                <P2PCard
+                    domainName={'Video editing'}
+                    domainMentors={[
+                        {
+                            name: 'Adithya',
+                            img: 'assets/adi.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/a-k-s-thirumurugan-57b230211/'
+                        },
+                        {
+                            name: 'Anand',
+                            img: 'assets/anand.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/anand-subramanian-680757304/'
+                        },
+                       
+                        {
+                            name: 'Nandha Kumar',
+                            img: 'assets/nandha.jpg',
+                            linkedinLink: ' https://www.linkedin.com/in/nandha-kumar-p-1627b6257'
+                        },
+                        
+                        {
+                            name: 'Suhaib',
+                            img: 'assets/msv.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/mohammed-suhaib-vajeer/ '
+                        },
+                        {
+                            name: 'Saswat Vishal',
+                            img: 'assets/Hursun.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/saswat-vishal-e-v-67a3b62a2/'
+                        },
+                        {
+                            name: 'Akash',
+                            img: 'assets/',
+                            linkedinLink: ''
+                        },
+                        
+                    ]}
+                />
+           
             </div>
+            
 
             <div className="p2p-page-footer-container">
                 <P2PCard
@@ -266,7 +394,7 @@ export default function PeerToPeer() {
                     ]}
                     isCoordinator={true}
                 />
-            </div> */}
+            </div> 
 
         </div>
     )
