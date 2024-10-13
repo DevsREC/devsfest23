@@ -60,7 +60,11 @@ export default function PeerToPeer() {
 
             <div className="p2p-join-container">
                 <a href="https://chat.whatsapp.com/HXctutnYrNUH2QYuqbbukq" target="_" className="p2p-join-btn">
-                    Join Now!
+                    Join Technical Community!
+                </a>
+                <br />
+                <a href="https://chat.whatsapp.com/J2k14biIqAy0BH74m2yglZ" target="_" className="p2p-join-btn">
+                    Join Design Community!
                 </a>
             </div>
             <center>
