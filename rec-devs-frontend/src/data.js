@@ -1,9 +1,9 @@
 
 const ANNOUNCEMENTS = [
     {
-        announcementTitle: 'REC Companion',
-        announcementContent: 'Launching Soon!',
-        announcementLink: '#'
+        announcementTitle: 'P2P x DEVDAYS',
+        announcementContent: 'Join the challenge now!',
+        announcementLink: '/#/p2pxdev'
     },
     {
         announcementTitle: 'Peer-To-Peer',

@@ -12,8 +12,12 @@ import GM_DOC from '../../assets/P2P_DEVS_GAME_DEV_Challeng.pdf';
 import TimelineCard from './TimelineCard';
 import SubmissionNote from './SubmissionNote';
 import P2PDevHead from './P2PDevHead';
+import { useEffect } from 'react';
 
 const P2PDevs = () => {
+    useEffect(() => {
+        window.scroll(0, 0);
+    }, [])
     return(
         <div className="page-container p2pxdevs">
             <div className="section-head">
