@@ -9,6 +9,7 @@ import UX_DOC from '../../assets/P2P_DEVS_UX_Challenge.pdf';
 import VD_DOC from '../../assets/P2P_DEVS_VD_Challenge.pdf';
 import IT_DOC from '../../assets/P2P_DEVS_IoT_Challenge.pdf';
 import GM_DOC from '../../assets/P2P_DEVS_GAME_DEV_Challeng.pdf';
+import TimelineCard from './TimelineCard';
 
 const P2PDevs = () => {
     return(
@@ -20,6 +21,9 @@ const P2PDevs = () => {
             </div>
             <div className="section-explainer">
                 Ready to dive in <span>thrilling challenges</span>
+            </div>
+            <div className='timeline-wrapper'>
+                <TimelineCard />
             </div>
             <div className="p2p-dev-content-container">
                 <ChallengeCard
