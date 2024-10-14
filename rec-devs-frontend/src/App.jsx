@@ -21,6 +21,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import Team23 from './pages/Team23/Team23';
+import P2PDevs from './pages/P2PDev/P2pDev';
 
 function App() {
   useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
         <Route path='/team' element={<Team />}/>
         <Route path='/peer-to-peer' element={<PeerToPeer />}/>
         <Route path='/team-last' element={<Team23 />} />
+        <Route path='/p2pxdev' element={<P2PDevs />} />
         <Route path='/*' element={<PageNotFound />}/>
       </Routes>
 

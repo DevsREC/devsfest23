@@ -25,7 +25,7 @@ export default function Contest() {
                 CONTESTS.length === 0?
                 <h1 style={{textAlign: 'center'}}>None for now!</h1>
                 :
-                CONTESTS.map((curr, key) => <ContestCard key={key} contestPoster={curr.contestImage} contestRegistrationLink={curr.contestLink} btnName={'Participate'} />)
+                CONTESTS.map((curr, key) => <ContestCard key={key} contestPoster={curr.contestImage} contestRegistrationLink={curr.contestLink} btnName={'See Challeneges'} />)
             }
         </div>
     </section>

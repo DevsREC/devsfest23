@@ -1,5 +1,3 @@
-import React from "react";
-
 import './p2p.css';
 import P2PCard from "../../components/P2PCard/P2PCard";
 

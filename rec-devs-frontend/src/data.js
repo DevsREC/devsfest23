@@ -97,10 +97,10 @@ const PODCASTS = [
 ]
 
 const CONTESTS = [
-    // {
-    //     contestImage: '/assets/web-dev-contest.webp',
-    //     contestLink: 'https://forms.gle/3w2fkBMr7Y3qWxzg7'
-    // },
+    {
+        contestImage: '/assets/P2P X DEVDAYS (1).png',
+        contestLink: '#/p2pxdev'
+    },
     // {
     //     contestImage: '/assets/web-dev-contest.webp',
     //     contestLink: 'https://forms.gle/3w2fkBMr7Y3qWxzg7'

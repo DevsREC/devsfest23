@@ -8,7 +8,7 @@ export default function ContestCard({contestPoster, contestRegistrationLink, btn
             <div className="contest-card-image-container">
                 <img src={contestPoster} className="contest-poster" />
             </div>
-            <a target="_" href={contestRegistrationLink} className="btn-container">
+            <a href={contestRegistrationLink} className="btn-container">
                 {btnName}
             </a>
         </div>
