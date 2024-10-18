@@ -13,7 +13,7 @@ const TimelineCard = () => {
         </div>
         <div class="message-text-container">
             <p class="message-text">Week 1: Submission Deadline</p>
-            <p class="sub-text">14/10/2024 - 18/10/2024 : 5PM</p>
+            <p class="sub-text">14/10/2024 - 18/10/2024 : 9PM</p>
         </div>
         </div>
     );
