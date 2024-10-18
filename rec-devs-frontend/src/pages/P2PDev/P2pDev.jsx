@@ -45,7 +45,7 @@ const P2PDevs = () => {
                 />
                 <ChallengeCard
                     challengeTitle={'Web Development'}
-                    challengeSubmit={'https://docs.google.com/forms/d/16Y-XRm9EdHLuD7PPiMRk1LoHdVP94yc-7eEfHwC6jOY/edit?ts=67110b3a'}
+                    challengeSubmit={'https://docs.google.com/forms/d/e/1FAIpQLSeeXlzmUQie6o-s93SE_5Vzz_RbHgdv8LYx7W_QO9ERMIkd-Q/viewform'}
                     challengeBody={`Welcome to the Web Development Domain at Peer to Peer Hub! Are you ready to code your way to the web? From eye-catching designs to interactive features, you’ll build sites that will make visitors say, “I wish my website was this cool!”`}
                     challengeDoc={'https://docs.google.com/document/d/18E2Hz7KnbdG8pDoOk4f17d1niZ9HqYOTHhnhq078R3E/edit?usp=sharing'}
                     challenegeIcon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-panels-top-left"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>}
