@@ -66,18 +66,21 @@ const P2PDevs = () => {
                 />
                 <ChallengeCard
                     challengeTitle={'Competitive Programming'}
+                    challengeSubmit={'https://forms.gle/Tf6ZcdBZU6wL3pEY9'}
                     challengeBody={`Welcome to the Competitive Programming Domain at Peer to Peer Hub! Are you ready to code like your job depends on it? Dive into algorithmic challenges and coding battles that’ll have your brain doing cartwheels while your code runs faster than a cheetah on a coffee break! Let’s turn those bugs into features and compete for coding glory!`}
                     challengeDoc={CP_DOC}
                     challenegeIcon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-square-chart-gantt"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 8h7"/><path d="M8 12h6"/><path d="M11 16h5"/></svg>}
                 />
                 <ChallengeCard
                     challengeTitle={'IoT'}
+                    challengeSubmit={'https://forms.gle/ju7ebBoQJTQDJABb6'}
                     challengeBody={`Welcome to the IoT Domain at Peer-to-Peer Hub!
 Ready to turn everyday objects into smart devices? Join us to explore the Internet of Things and learn how to connect and innovate! From cool gadgets to life-changing solutions, let’s create amazing projects that will leave your friends asking, “How did you do that?” Together, we’ll push boundaries and build the future—one device at a time.`}
                     challengeDoc={IT_DOC}
                     challenegeIcon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-microchip"><path d="M18 12h2"/><path d="M18 16h2"/><path d="M18 20h2"/><path d="M18 4h2"/><path d="M18 8h2"/><path d="M4 12h2"/><path d="M4 16h2"/><path d="M4 20h2"/><path d="M4 4h2"/><path d="M4 8h2"/><path d="M8 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-1.5c-.276 0-.494.227-.562.495a2 2 0 0 1-3.876 0C9.994 2.227 9.776 2 9.5 2z"/></svg>}
                 />
                 <ChallengeCard
+                    challengeSubmit={'https://forms.gle/tusbAUdGSbg4PNTw6'}
                     challengeTitle={'Game Development'}
                     challengeBody={`Welcome to the Game Development Domain at Peer-to-Peer Hub , where dreams are built pixel by pixel and coffee is a key ingredient! Join us as we transform wild ideas into playable games, with a bunch of “I swear it worked yesterday!”  Along the way. Get ready to unleash your creativity and debug your way to glory!`}
                     challengeDoc={GM_DOC}
@@ -85,6 +88,7 @@ Ready to turn everyday objects into smart devices? Join us to explore the Intern
                 />
                 <ChallengeCard
                     challengeTitle={'Graphic Design'}
+                    challengeSubmit={'https://forms.gle/rwhWXxKsVBvzSNcY9'}
                     challengeBody={`Welcome to the Design Domain at Peer-to-Peer Hub, where creative minds unite to transform doodles into masterpieces! Whether you're crafting eye-catching graphics or passionately debating the merits of Comic Sans, we celebrate every design style! Get ready to unleash your inner Picasso—because in this space, even your worst ideas could become a masterpiece... or at least a fantastic story to tell!`}
                     challengeDoc={GP_DOC}
                     challenegeIcon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-figma"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"/><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"/><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"/></svg>}
