@@ -409,6 +409,11 @@ export default function PeerToPeer() {
                             linkedinLink: 'https://www.linkedin.com/in/dhiksha-shrivruthi-g-93897b258/'
                         },
                         {
+                            name: 'Mrithika',
+                            img: 'assets/mirthika.jpg',
+                            linkedinLink: 'https://www.linkedin.com/in/mrithika-dinesh-200934257'
+                        },
+                        {
                             name: 'Adithya',
                             img: 'assets/adi.webp',
                             linkedinLink: 'https://www.linkedin.com/in/a-k-s-thirumurugan-57b230211/'
