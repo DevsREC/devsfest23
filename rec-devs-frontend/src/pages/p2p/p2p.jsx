@@ -129,11 +129,11 @@ export default function PeerToPeer() {
                             img: 'assets/Rakhul.webp',
                             linkedinLink: 'https://www.linkedin.com/in/rakhul/'
                         },
-                        // {
-                        //     name: 'SivaKumar',
-                        //     img: 'assets/',
-                        //     linkedinLink: ''
-                        // },
+                        {
+                            name: 'Shivashankar',
+                            img: 'assets/siavshankar.jpg',
+                            linkedinLink: 'https://in.linkedin.com/in/sivashankar-s-33117b249'
+                        },
                         {
                             name: 'A.K.S. Thirumurugan',
                             img: 'assets/vice242.webp',
@@ -208,17 +208,17 @@ export default function PeerToPeer() {
                             img: 'assets/vice242.webp',
                             linkedinLink: 'https://www.linkedin.com/in/a-k-s-thirumurugan-57b230211/'
                         },
-                        // {
-                        //     name: 'Balaji',
-                        //     img: 'assets/',
-                        //     linkedinLink: ''
-                        // },
+                        {
+                            name: 'Balaji',
+                            img: 'assets/balaji.png',
+                            linkedinLink: 'https://www.linkedin.com/in/balaji-santhanam-97452b2aa'
+                        },
 
-                        // {
-                        //     name: 'Arunachalam',
-                        //     img: 'assets/',
-                        //     linkedinLink: ''
-                        // },
+                        {
+                            name: 'Arunachalam',
+                            img: 'assets/arunachalam.jpg',
+                            linkedinLink: ''
+                        },
 
                         {
                             name: 'Suhaib',
@@ -268,11 +268,11 @@ export default function PeerToPeer() {
                             img: 'assets/Shyam Prasath R.webp',
                             linkedinLink: 'https://www.linkedin.com/in/shyamprasath-r'
                         },
-                        // {
-                        //     name: 'Rishi',
-                        //     img: 'assets/',
-                        //     linkedinLink: ''
-                        // },
+                        {
+                            name: 'Rishi',
+                            img: 'assets/rishi.JPG',
+                            linkedinLink: ''
+                        },
                         {
                             name: 'Manovikram',
                             img: 'assets/vice24.webp',
@@ -404,14 +404,19 @@ export default function PeerToPeer() {
                     domainName={'P2P Co-ordinators'}
                     domainMentors={[
                         {
-                            name: 'Anand',
-                            img: 'assets/anand.webp',
-                            linkedinLink: 'https://www.linkedin.com/in/anand-subramanian-680757304/'
+                            name: 'Dhiksha Shrivruthi',
+                            img: 'assets/Dhiksha Shrivruthi.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/dhiksha-shrivruthi-g-93897b258/'
                         },
                         {
-                            name: 'Sri Praveen',
-                            img: 'assets/sripraveen.JPG',
-                            linkedinLink: 'https://www.linkedin.com/in/sri-praveen-r-496ab1293/'
+                            name: 'Adithya',
+                            img: 'assets/adi.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/a-k-s-thirumurugan-57b230211/'
+                        },
+                        {
+                            name: 'Abraham',
+                            img: 'assets/Abraham Samuel E.webp',
+                            linkedinLink: 'https://www.linkedin.com/in/abraham-samuel-e/'
                         },
                         {
                             name: 'Nithya Shree',
