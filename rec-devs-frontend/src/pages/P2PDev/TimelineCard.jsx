@@ -12,7 +12,7 @@ const TimelineCard = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-9 icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 7.5 12"/></svg>
         </div>
         <div class="message-text-container">
-            <p class="message-text">Week 1: Submission Deadline</p>
+            <p class="message-text">Week 2: Submission Deadline</p>
             <p class="sub-text">18/10/2024 - 23/10/2024 : 12PM</p>
         </div>
         </div>
