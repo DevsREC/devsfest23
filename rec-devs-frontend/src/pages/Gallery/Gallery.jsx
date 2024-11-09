@@ -9,6 +9,7 @@ import img4 from '/assets/g4.jpg'
 import img5 from '/assets/g5.jpg'
 import img6 from '/assets/g6.jpg'
 import img7 from '/assets/g7.jpg'
+import img8 from '/assets/Devfest.webp'
 
 export default function Gallery() {
     useEffect(() => {
@@ -25,10 +26,16 @@ export default function Gallery() {
             <div className="section-explainer">
                  <span>Moments to Remember</span> 
             </div>
+            
             <div className="gallery-cards-container">
+                
+            <div data-aos="zoom-in" className="gallery-image-container">
+                    <img src='assets/g8.webp' className="gallery-image" />
+                </div>
                 <div data-aos="zoom-in" className="gallery-image-container">
                     <img src='assets/6.webp' className="gallery-image" />
                 </div>
+
                 <div data-aos="zoom-in" className="gallery-image-container">
                     <img src={img2} className="gallery-image" />
                 </div>
